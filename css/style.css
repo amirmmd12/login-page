@@ -1,0 +1,110 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #080710;
+    font-family: poppins;
+}
+.parent{
+    position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
+
+.form{
+    
+  width: 400px;
+  height: 500px;
+  background-color: rgba(255,255, 255, 0.13);
+  border-radius: 10px;
+  backdrop-filter: blur(7.7px);
+  z-index: 100;
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  border: 2px solid rgba(255,255, 255, 0.13);
+  padding: 35px;
+  padding-top: 50px;
+  
+
+}
+.text1{
+    font-size: 42px;
+    font-weight:600;
+    color: #fff;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.circle1{
+    background-image: linear-gradient(138deg, #304FFE,#29B6F6);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+    right: 194px;
+    bottom: 150px;
+
+}
+.circle2{
+    background-image: linear-gradient(138deg, #D84315,#F57C00);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+    left:168px;
+    top: 131px;
+}
+.input1{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    padding-right:10px ;
+    background-color: rgba(255,255, 255, 0.07);
+    font-weight: 300;
+    border-radius: 9px;
+    display: inline-block;
+    border: 0;
+    color: #fff;
+}
+.input2{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    padding-right:10px ;
+    background-color: rgba(255,255, 255, 0.07);
+    font-weight: 300;
+    border-radius: 9px;
+    display: block;
+    border: 0;
+    color: #fff;
+
+}
+
+.sub{
+    width: 100%;
+    height: 60px;
+    
+    background-color: rgb(255, 255, 255);
+    font-weight: 400;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-top: 54px;
+    border: 0 ;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text2{
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    font-weight: 500 ;
+}
