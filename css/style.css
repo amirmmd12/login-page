@@ -47,8 +47,8 @@ body{
     height: 200px;
     border-radius: 100%;
     position: relative;
-    right: 194px;
-    bottom: 150px;
+    right: 187px;
+    bottom: 124px;
 
 }
 .circle2{
@@ -57,8 +57,8 @@ body{
     height: 200px;
     border-radius: 100%;
     position: relative;
-    left:168px;
-    top: 131px;
+    left:181px;
+    top: 120px;
 }
 .input1{
     width: 100%;
@@ -107,4 +107,192 @@ body{
     margin-top: 32px;
     margin-bottom: 8px;
     font-weight: 500 ;
+}
+@media screen and (max-width:600px) {
+    .form{
+        width: 300px;
+        height: 400px;
+        padding: 30px;
+        padding-top: 38px;
+    }
+    .text1{
+        font-size: 30px;
+    }
+    .text2{
+        font-size: 12px;
+        margin-top: 24px;
+    }
+    .circle1{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        right: 148px;
+        bottom: 119px;
+    }
+
+    
+    .circle2{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        left: 148px;
+        top: 109px;
+    }
+    .input1{
+        height: 44px;
+    }
+    .input2{
+        height: 44px;
+    }
+    .sub{
+        height:50px ;
+        margin-top:50px ;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: 20px;
+    }
+        
+}
+
+@media screen and (max-height:640px) {.form{
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    padding-top: 38px;
+}
+.text1{
+    font-size: 30px;
+}
+.text2{
+    font-size: 12px;
+    margin-top: 24px;
+}
+.circle1{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    right: 148px;
+    bottom: 114px;
+}
+
+
+.circle2{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 148px;
+    top: 114px;
+}
+.input1{
+    height: 44px;
+}
+.input2{
+    height: 44px;
+}
+.sub{
+    height:50px ;
+    margin-top:50px ;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+}
+    
+}
+
+
+@media screen and (max-width:460px) {
+    .form{
+        width: 220px;
+        height: 260px;
+        padding: 20px;
+        padding-top: 24px;
+    }
+    .text1{
+        font-size: 24px;
+    }
+    .text2{
+        font-size: 10px;
+        margin-top: 16px;
+        margin-bottom: 2px;
+    }
+    .circle1{
+        width: 90px;
+        height: 90px;
+        position: relative;
+        right: 105px;
+        bottom: 82px;
+    }
+
+    
+    .circle2{
+        width: 90px;
+        height: 90px;
+        position: relative;
+        left: 105px;
+        top: 82px;
+    }
+    .input1{
+        height: 32px;
+        font-size: 11px;
+    }
+    .input2{
+        height: 32px;
+        font-size: 11px;
+    }
+    .sub{
+        height:30px ;
+        margin-top:20px ;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 14px;
+    }
+        
+}
+@media screen and (max-height:535px) {
+    .form{
+        width: 220px;
+        height: 260px;
+        padding: 20px;
+        padding-top: 24px;
+    }
+    .text1{
+        font-size: 24px;
+    }
+    .text2{
+        font-size: 10px;
+        margin-top: 16px;
+        margin-bottom: 2px;
+    }
+    .circle1{
+        width: 90px;
+        height: 90px;
+        position: relative;
+        right: 105px;
+        bottom: 82px;
+    }
+
+    
+    .circle2{
+        width: 90px;
+        height: 90px;
+        position: relative;
+        left: 105px;
+        top: 82px;
+    }
+    .input1{
+        height: 32px;
+        font-size: 11px;
+    }
+    .input2{
+        height: 32px;
+        font-size: 11px;
+    }
+    .sub{
+        height:30px ;
+        margin-top:20px ;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 14px;
+    }
+        
 }
